@@ -1,0 +1,164 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#F1F5F9;
+}
+
+/* Sidebar */
+
+.sidebar{
+
+    width:250px;
+    height:100vh;
+
+    background:#0F172A;
+
+    color:white;
+
+    padding:25px;
+
+    position:fixed;
+
+}
+
+.logo{
+
+    font-size:28px;
+
+    font-weight:bold;
+
+    color:#38BDF8;
+
+}
+
+.sidebar ul{
+
+    list-style:none;
+
+    margin-top:30px;
+
+    padding-left:0;
+
+}
+
+.sidebar li{
+
+    padding:15px;
+
+    margin-bottom:10px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.sidebar li:hover{
+
+    background:#1E293B;
+
+    transform:translateX(5px);
+
+}
+
+/* Main */
+
+.main{
+
+    margin-left:250px;
+
+    width:100%;
+
+    padding:30px;
+
+}
+
+/* Top Bar */
+
+.topbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.admin{
+
+    background:white;
+
+    padding:10px 20px;
+
+    border-radius:30px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+}
+
+/* Cards */
+
+.dashboard-card{
+
+    border:none;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.dashboard-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.dashboard-card h5{
+
+    color:#64748B;
+
+}
+
+.dashboard-card h2{
+
+    color:#2563EB;
+
+    font-weight:bold;
+
+}
+
+/* Table */
+
+table{
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+}
+
+.card{
+
+    border:none;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
