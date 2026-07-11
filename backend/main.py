@@ -7,6 +7,15 @@ from routers.purchase import router as purchase_router
 from routers.sales import router as sales_router
 from routers.dashboard import router as dashboard_router
 from routers.invoice import router as invoice_router
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],   # For development/demo
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Import all models so SQLAlchemy creates the tables
 import models
